@@ -1,0 +1,189 @@
+# Site
+# repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Brandon Doster
+title: Systems Infrastructure Engineer
+# email: 
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: https://brandon.doster.cc
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+twitter_username: BrandonDoster
+#github_username:  Badman996
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+facebook_username: BrandonDoster
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: brandon-doster-4a1974139
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: https://media-exp1.licdn.com/dms/image/C4E03AQF4pKH--WHL2A/profile-displayphoto-shrink_200_200/0/1576097563558?e=1661385600&v=beta&t=mK2j3Ux_CffDQi8_GP-O2ewzWY4a6v_VpZVN-aCpa4M
+about_content: | # this will include new lines to allow paragraphs
+
+content:
+#  - title: Projects # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: left
+#        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+#                      # other value (or no value) means no border will be displayed
+#        title: Project name
+#        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#        link_text: Link Text
+#        additional_links:
+#          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#            icon: fab fa-github
+#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#            icon: fab fa-github
+#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#        quote: >
+#          Short overview of the project (optional)
+#        description: | # this will include new lines to allow paragraphs
+#          Description about the work on/with the project
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Denali Advanced Integration
+        sub_title: Systems Infrastructure Engineer
+        caption: September 2021 - Present
+        link: https://www.denaliai.com/
+        # quote: 
+        description: |
+          · Responsible for fixing, maintaining, expanding Current IT infrastructure. Includes Physical and Virtual Infrastructure. 
+
+          · System administration for Office 365, VSphere, AWS, Azure, Physical Server and Desktop infrastructure.
+
+          · Worked any active projects as well as adding new ones for future planning and expansion.
+
+          · Worked Break-Fix tickets from Ticketing system.
+
+          · Provide new documentation as well as update existing to help Tier 1 support onboarding and day to day operations.
+
+          · On-Call Engineer for after-hours emergency escalations
+
+          · Ensuring and carrying out Security Compliance and rolling out patches across multiple departments and services within scheduled maintenance window.
+
+          · Obtaining and maintaining SOC2 compliance.
+
+      - layout: right
+        title: Denali Advanced Integration
+        sub_title: Systems Administrator
+        caption: May 2019 - September 2021
+        #link:
+        #quote: 
+        description: |
+          *PENDING*
+      - layout: right
+        title: Denali Advanced Integration
+        sub_title: Service Desk Lead
+        caption: August 2016 - May 2019
+        #link:
+        #quote:
+        description: |
+          *PENDING*
+      - layout: right
+        title: Denali Advanced Integration
+        sub_title: Service Desk Analyst
+        caption: June 2015 - August 2016
+        #link:
+        #quote:
+        description: |
+          *PENDING*
+      - layout: right
+        title: Geek Squad
+        sub_title: Advanced Repair Agent
+        caption: August 2011 - June 2015
+        #link:
+        #quote: 
+        description: |
+          *PENDING*
+      - layout: right
+        title: Walmart
+        sub_title: Electronic Sales Associate
+        caption: October 2010 - August 2011
+        #link:
+        #quote: 
+        description: |
+          *PENDING*
+  - title : Skills
+    layout: text
+    content: |
+      · SharePoint Administration · Documentation · Microsoft Azure · Office 365 Administration · Windows Server · Linux System Administration · Rapid7 · Crowdstrike Falcon · Microsoft Visual Studio Code · Powershell · VMware vSphere
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Sno-Isle TECH Skills Center
+        sub_title: Computers, Servers, and Networking
+        link: https://snoisletech.com/classes/computers-servers-networking/
+        link_text: https://snoisletech.com/
+        caption: 2007
+        #quote: 
+        #description:
+  - title: A Little More About Me
+    layout: text
+    content: | 
+      
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
