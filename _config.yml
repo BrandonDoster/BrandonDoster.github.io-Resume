@@ -20,7 +20,7 @@ darkmode: true
 
 # Social links
 twitter_username: BrandonDoster
-#github_username:  Badman996
+github_username:  BrandonDoster
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 facebook_username: BrandonDoster
@@ -166,7 +166,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
